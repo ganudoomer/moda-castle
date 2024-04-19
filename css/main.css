@@ -3376,3 +3376,33 @@ html{
     transform: translateY(-12px);
   }
 }
+
+.iframe-cu{
+  width: 600px;
+  height: 450px;
+
+}
+
+@media (max-width:400px){
+  .whatsapp-icon {
+    left: 20px;
+    height: 30px;
+    width: 30px;
+  }
+  .whatsapp-icon img{
+    height: 30px;
+    width: 30px;
+  }
+  .block2-pic.hov-img0 img {
+    height: 370px;
+  }
+  .iframe-cu{
+    width: 300px;
+    height: 250px;
+  
+  }
+
+}
+body::-webkit-scrollbar {
+  display: none;
+}
